@@ -34,6 +34,7 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 726 - Expected Infrastructure Failure
     - 727 - Not Responding
     - 728 - Server Failed to Complete the Request
+    - 729 - Example Content
     
   * 73X - Generalised Errors
     - 730 - Timeout Occurred
@@ -94,3 +95,15 @@ We've noticed this divide in http status codes, and have developed our own versi
 You can read more about the Creative Commons Attribution Share Alike 4.0 license here: https://choosealicense.com/licenses/cc-by-sa-4.0/.
 
 ![Creative Commons Attribution Share Alike 4.0](https://i.gyazo.com/554cbca59c9e31b027f042d766d5f3da.png)
+
+---
+
+# Implementation
+To properly indicate the results of the error, use these code examples.
+
+### PHP 7(>?)
+```php
+    @http_response_code(729);
+    @header("X-Advena-Error: 729");
+    die("729 - Example Content - Explain error here"); // Not required - will end code execution.
+```
