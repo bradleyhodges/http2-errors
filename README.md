@@ -11,6 +11,7 @@ We've noticed this divide in http status codes, and have developed our own versi
   * 70X - Internal Errors
     - 701 - Internal Handling Exception
     - 702 - Expected Exception
+    - 703 - Failed to Update
     - 704 - Content Not Acceptable
     - 705 - Internal Allocation Exception
     - 706 - Execution Error
