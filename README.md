@@ -42,6 +42,7 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 733 - Content Not Allowed (See: 704)
     - 734 - User Not Authenticated
     - 735 - Access Denied
+    - 736 - Parameters Returned 0 Results
     - 737 - Forbidden
     - 738 - Syntax Error
     - 739 - Compiling Exception
