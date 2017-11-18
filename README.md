@@ -70,6 +70,21 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 778 - Server Unreachable
     - 779 - Client Unreachable
     
+  * 78X - Content Errors
+    - 780 - Content Ended Unexpectedly
+    - 781 - Expected Character(s) Missing
+    - 782 - Content Incorrectly Encoded
+    - 785 - Unexpected Content
+    - 788 - Content Length is Invalid
+    
+  * 79X - Product Errors
+    - 790 - Service/Product Not Available
+    - 791 - Authentication Server Unreachable
+    - 792 - Product Server Unreachable
+    - 795 - Unexpected Service/Product Exception
+    - 799 - Service/Product Returned Invalid Response
+
+    
     
     
     
