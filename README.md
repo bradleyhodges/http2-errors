@@ -3,7 +3,7 @@ Advena is a developer-oriented company, and as part of that, we believe that it'
 
 We've noticed this divide in http status codes, and have developed our own version of 7XX codes to help developers understand exactly what the problem is. These codes are primarily used internally, on Advena products and services, but you're welcome to use them under our Creative Commons Attribution Share Alike 4.0 license.
 
-### 7XX Codes
+## 7XX Codes
 
   * 70X - Internal Errors
     - 701 - Internal Handling Exception
@@ -29,6 +29,7 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 723 - Undocumented Infrastructure Failure
     - 725 - Unexpected Infrastructure Failure
     - 726 - Expected Infrastructure Failure
+    - 727 - Not Responding
     
   * 73X - Generalised Errors
     - 730 - Timeout Occurred
@@ -37,12 +38,31 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 733 - Content Not Allowed (See: 704)
     - 734 - User Not Authenticated
     - 735 - Access Denied
+    - 737 - Forbidden
     - 738 - Syntax Error
     - 739 - Compiling Exception
     
+  * 74X - Caching Exceptions
+    - 740 - Cache Expired
+    - 741 - Cache Expected
+    - 742 - Edge Cache Not Responding
+    
+  * 75X - Binary Responses
+    - 750 - Okay
+    - 751 - No
+    - 752 - Yes
+    
+  * 76X - Binary Responses
+    - 750 - Okay
+    - 751 - No
+    - 752 - Yes
     
     
-### License
+    
+    
+    
+    
+## License
 You can read more about the Creative Commons Attribution Share Alike 4.0 license here: https://choosealicense.com/licenses/cc-by-sa-4.0/.
 
 ![Creative Commons Attribution Share Alike 4.0](https://i.gyazo.com/554cbca59c9e31b027f042d766d5f3da.png)
