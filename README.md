@@ -4,6 +4,8 @@ Advena is a developer-oriented company, and as part of that, we believe that it'
 
 We've noticed this divide in http status codes, and have developed our own version of 7XX codes to help developers understand exactly what the problem is. These codes are primarily used internally, on Advena products and services, but you're welcome to use them under our Creative Commons Attribution Share Alike 4.0 license.
 
+---
+
 # 7XX Codes
 
   * 70X - Internal Errors
