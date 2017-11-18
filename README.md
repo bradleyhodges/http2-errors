@@ -30,6 +30,7 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 725 - Unexpected Infrastructure Failure
     - 726 - Expected Infrastructure Failure
     - 727 - Not Responding
+    - 728 - Server Failed to Complete the Request
     
   * 73X - Generalised Errors
     - 730 - Timeout Occurred
@@ -56,6 +57,18 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 750 - Okay
     - 751 - No
     - 752 - Yes
+    
+  * 77X - DNS Errors
+    - 770 - DNS Format Error
+    - 771 - DNS Query Error
+    - 772 - Server Failed to Complete the DNS Request
+    - 773 - Domain Name Does Not Exist
+    - 774 - Server Refused to Connect
+    - 775 - Server Not Authoritative for the DNS Zone
+    - 776 - Timed out
+    - 777 - Unexpected Result (DNS)
+    - 778 - Server Unreachable
+    - 779 - Client Unreachable
     
     
     
