@@ -103,7 +103,7 @@ To properly indicate the results of the error, use these code examples.
 
 ### PHP 7(>?)
 ```php
-    @http_response_code(729);
-    @header("X-Advena-Error: 729");
-    die("729 - Example Content - Explain error here"); // Not required - will end code execution.
+@http_response_code(729);
+@header("X-Advena-Error: 729");
+die("729 - Example Content - Explain error here"); // Not required - will end code execution.
 ```
