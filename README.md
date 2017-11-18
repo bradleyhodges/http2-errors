@@ -1,9 +1,10 @@
 # http2-errors (7XX Range)
+### A set of standard http error codes in the 7XX range
 Advena is a developer-oriented company, and as part of that, we believe that it's our responsibility to provide developers with tools that help them in the long run. There has not been a major revision to http status codes since 2014, and before then, it wasn't until 1997 that a major revision occured.
 
 We've noticed this divide in http status codes, and have developed our own version of 7XX codes to help developers understand exactly what the problem is. These codes are primarily used internally, on Advena products and services, but you're welcome to use them under our Creative Commons Attribution Share Alike 4.0 license.
 
-## 7XX Codes
+# 7XX Codes
 
   * 70X - Internal Errors
     - 701 - Internal Handling Exception
@@ -84,13 +85,9 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 795 - Unexpected Service/Product Exception
     - 799 - Service/Product Returned Invalid Response
 
-    
-    
-    
-    
-    
-    
-## License
+---
+
+# License
 You can read more about the Creative Commons Attribution Share Alike 4.0 license here: https://choosealicense.com/licenses/cc-by-sa-4.0/.
 
 ![Creative Commons Attribution Share Alike 4.0](https://i.gyazo.com/554cbca59c9e31b027f042d766d5f3da.png)
