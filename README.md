@@ -106,5 +106,16 @@ To properly indicate the results of the error, use these code examples.
 ```php
 @http_response_code(729);
 @header("X-Advena-Error: 729");
-die("729 - Example Content - Explain error here"); // Not required - will end code execution.
+die("729 - Example Content. Explain error here"); // Not required - will end code execution.
+```
+
+### Apache 2(.2+)
+```apache
+Redirect 729 /
+```
+
+### Node.JS
+```nodejs
+res.status(729);
+res.send('Example Content');
 ```
