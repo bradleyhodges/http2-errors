@@ -1,4 +1,4 @@
-# http2-errors (7XX Range)
+# http2-errors (7XX Class Errors)
 ### A set of standard http error codes in the 7XX range
 Advena is a developer-oriented company, and as part of that, we believe that it's our responsibility to provide developers with tools that help them in the long run. There has not been a major revision to http status codes since 2014, and before then, it wasn't until 1997 that a major revision occured.
 
