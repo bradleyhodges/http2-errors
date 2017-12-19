@@ -83,12 +83,10 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 785 - Unexpected Content
     - 788 - Content Length is Invalid
     
-  * 79X - Product Errors
-    - 790 - Service/Product Not Available
-    - 791 - Authentication Server Unreachable
-    - 792 - Product Server Unreachable
-    - 795 - Unexpected Service/Product Exception
-    - 799 - Service/Product Returned Invalid Response
+  * 79X - API Errors
+    - 790 - API Not Available
+    - 791 - Invalid Scope
+    - 795 - API Service Error
 
 ---
 
