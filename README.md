@@ -59,10 +59,11 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 751 - No
     - 752 - Yes
     
-  * 76X - Binary Responses
-    - 750 - Okay
-    - 751 - No
-    - 752 - Yes
+  * 76X - Security Responses
+    - 760 - Violated Policy
+    - 761 - Request Rejected for Security
+    - 762 - Refused to Fulfill Request
+    - 763 - Client is Blocked
     
   * 77X - DNS Errors
     - 770 - DNS Format Error
