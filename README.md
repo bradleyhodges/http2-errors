@@ -88,6 +88,7 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 790 - API Not Available
     - 791 - Invalid Scope
     - 795 - API Service Error
+    - 796 - Invalid/Missing Parameter
 
 ---
 
