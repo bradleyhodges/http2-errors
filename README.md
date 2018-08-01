@@ -117,5 +117,5 @@ Redirect 729 /
 ### Node.JS
 ```nodejs
 res.status(729);
-res.send('Example Content');
+res.send("729 - Example Content. Explain error here");
 ```
