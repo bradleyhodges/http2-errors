@@ -87,6 +87,7 @@ We've noticed this divide in http status codes, and have developed our own versi
   * 79X - API Errors
     - 790 - API Not Available
     - 791 - Invalid Scope
+    - 792 - Insufficient Permissions
     - 795 - API Service Error
     - 796 - Invalid/Missing Parameter
     - 797 - Available
