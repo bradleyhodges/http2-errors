@@ -39,7 +39,7 @@ We've noticed this divide in http status codes, and have developed our own versi
     
   * 73X - Generalised Errors
     - 730 - Timeout Occurred
-    - 731 - Content Not Found
+    - 731 - Invalid/Incorrect Request Method
     - 732 - Not Allowed
     - 733 - Content Not Allowed (See: 704)
     - 734 - User Not Authenticated
