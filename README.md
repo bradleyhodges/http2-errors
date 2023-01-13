@@ -93,7 +93,7 @@ We've noticed this divide in http status codes, and have developed our own versi
     - 796 - Invalid/Missing Parameter
     - 797 - Available
     - 798 - Not Available
-    - 799 - Invaid/Incorrect Credentials
+    - 799 - Invalid/Incorrect Credentials
 
 ---
 
